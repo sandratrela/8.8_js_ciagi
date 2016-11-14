@@ -5,4 +5,4 @@ var text = 'Papugi koszą trawę, unosząc się nad ziemią 15 centymetrów, na 
 	animalNameUpperCased = animalName.toUpperCase(),
 	textChangedAnimal = text.replace('Papugi', animalNameUpperCased);
 
-console.log(textChangedAnimal.slice(1, textChangedAnimal.length/2));
+console.log(textChangedAnimal.slice(0, textChangedAnimal.length/2));
